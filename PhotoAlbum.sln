@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum", "PhotoAlbum\PhotoAlbum.csproj", "{EE79C579-AF2C-4AE4-951C-37A71D6D7033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Release|iPhone.Build.0 = Release|iPhone
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EE79C579-AF2C-4AE4-951C-37A71D6D7033}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PhotoAlbum\PhotoAlbum.csproj
+	EndGlobalSection
+EndGlobal

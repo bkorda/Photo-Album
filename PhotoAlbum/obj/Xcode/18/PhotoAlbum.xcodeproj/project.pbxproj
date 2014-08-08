@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF641080000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31874DA60000000000000000 /* UIKit.framework */; };
+		F8BE43B00000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131CF0D90000000000000000 /* MapKit.framework */; };
+		24BF4CD30000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285059710000000000000000 /* Foundation.framework */; };
+		182A2F1C0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBB3BBA0000000000000000 /* CoreGraphics.framework */; };
+		2791BC8B0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B22C9290000000000000000 /* Info.plist */; };
+		38E362D40000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C746F720000000000000000 /* Entitlements.plist */; };
+		270E23BE0000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F305C0000000000000000 /* MainStoryboard.storyboard */; };
+		1174F4EE0000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1506018C0000000000000000 /* Images.xcassets */; };
+		F2D36D900000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 12BE43770000000000000000 /* AppDelegate.h */; };
+		27BEC8F30000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FD5910000000000000000 /* AppDelegate.m */; };
+		1EBAB7DA0000000000000000 /* PhotoAlbumViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 224BC4780000000000000000 /* PhotoAlbumViewController.h */; };
+		12259A230000000000000000 /* PhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6A6C10000000000000000 /* PhotoAlbumViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E046F7C0000000000000000 /* PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "PhotoAlbum.app"; path = "PhotoAlbum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31874DA60000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		131CF0D90000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		285059710000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		1BBB3BBA0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		2B22C9290000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		3C746F720000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2A9F305C0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		1506018C0000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		12BE43770000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2B4FD5910000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		224BC4780000000000000000 /* PhotoAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhotoAlbumViewController.h"; path = "PhotoAlbumViewController.h"; sourceTree = "<group>"; };
+		15B6A6C10000000000000000 /* PhotoAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PhotoAlbumViewController.m"; path = "PhotoAlbumViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172EAAEA0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF641080000000000000000 /* UIKit.framework in Frameworks */,
+				F8BE43B00000000000000000 /* MapKit.framework in Frameworks */,
+				24BF4CD30000000000000000 /* Foundation.framework in Frameworks */,
+				182A2F1C0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAE4D650000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				184801B10000000000000000 /* PhotoAlbum */,
+				3BF27FDD0000000000000000 /* Frameworks */,
+				22FB278B0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FB278B0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E046F7C0000000000000000 /* PhotoAlbum.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3BF27FDD0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31874DA60000000000000000 /* UIKit.framework */,
+				131CF0D90000000000000000 /* MapKit.framework */,
+				285059710000000000000000 /* Foundation.framework */,
+				1BBB3BBA0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		184801B10000000000000000 /* PhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				12BE43770000000000000000 /* AppDelegate.h */,
+				3C746F720000000000000000 /* Entitlements.plist */,
+				1506018C0000000000000000 /* Images.xcassets */,
+				2B22C9290000000000000000 /* Info.plist */,
+				2A9F305C0000000000000000 /* MainStoryboard.storyboard */,
+				224BC4780000000000000000 /* PhotoAlbumViewController.h */,
+				29A0C0D00000000000000000 /* Supporting Files */,
+			);
+			name = "PhotoAlbum";
+			sourceTree = "<group>";
+		};
+		29A0C0D00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FD5910000000000000000 /* AppDelegate.m */,
+				15B6A6C10000000000000000 /* PhotoAlbumViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B8A04E0000000000000000 /* PhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335149A20000000000000000 /* Build configuration list for PBXNativeTarget "PhotoAlbum" */;
+			buildPhases = (
+				1C85F3600000000000000000 /* Sources */,
+				172EAAEA0000000000000000 /* Frameworks */,
+				2AB2FEC10000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhotoAlbum";
+			productName = "PhotoAlbum";
+			productReference = 3E046F7C0000000000000000 /* PhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28057A740000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 250D172A0000000000000000 /* Build configuration list for PBXProject "PhotoAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DAE4D650000000000000000;
+			productRefGroup = 22FB278B0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B8A04E0000000000000000 /* PhotoAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB2FEC10000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2791BC8B0000000000000000 /* Info.plist in Resources */,
+				38E362D40000000000000000 /* Entitlements.plist in Resources */,
+				270E23BE0000000000000000 /* MainStoryboard.storyboard in Resources */,
+				1174F4EE0000000000000000 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C85F3600000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D36D900000000000000000 /* AppDelegate.h in Sources */,
+				27BEC8F30000000000000000 /* AppDelegate.m in Sources */,
+				1EBAB7DA0000000000000000 /* PhotoAlbumViewController.h in Sources */,
+				12259A230000000000000000 /* PhotoAlbumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268948CF0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1A59F1500000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "PhotoAlbum";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250D172A0000000000000000 /* Build configuration list for PBXProject "PhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268948CF0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		335149A20000000000000000 /* Build configuration list for PBXNativeTarget "PhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A59F1500000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28057A740000000000000000 /* Project object */;
+}
