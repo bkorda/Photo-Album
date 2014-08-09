@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		eMZ4uFgk9WdZyp9sv/YLHWUL61I=
-		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		o4O3P+j77hOxzgOWAj2lY7VLLNM=
@@ -30,11 +26,11 @@
 		</data>
 		<key>Default.png</key>
 		<data>
-		dNt8ny0mPGdvvnZMBoNso9lvvUg=
+		nbiIoDdnXNUGoUCzUnathy9viqc=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		0id3K+t1R3EHhSzfPkVILDDnqWs=
+		6kOxvJD8oDeppuPeGXb56NEOwHk=
 		</data>
 		<key>Default@2x~iphone.png</key>
 		<data>
@@ -43,14 +39,6 @@
 		<key>Default~iphone.png</key>
 		<data>
 		dNt8ny0mPGdvvnZMBoNso9lvvUg=
-		</data>
-		<key>MainStoryboard.storyboardc/UIViewController-28.nib</key>
-		<data>
-		dBduCHAt+nzvxvFhcEINLivGfyE=
-		</data>
-		<key>MainStoryboard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<data>
-		73m2IWi1YuLg0BNvRF1+NsiBYN4=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -62,11 +50,19 @@
 		</data>
 		<key>PhotoAlbum.exe</key>
 		<data>
-		L1l5kWJUkz1dOgJ0ux70iiqlNuo=
+		I1urU4w3D77WQdAt1r7BLOATa78=
 		</data>
 		<key>PhotoAlbum.exe.mdb</key>
 		<data>
-		BMvI2OBuEllpHGvtJutBj1usHcg=
+		TPg8ZwdmRQCbb7PXJMoEPJeSrmE=
+		</data>
+		<key>Photos_list_icon.png</key>
+		<data>
+		tEU/zvhD1Dk5sQsAtUpc53US/Tw=
+		</data>
+		<key>Photos_list_icon@2x.png</key>
+		<data>
+		Zcoc+UJhsn5HhwRwAgr1zsvvGos=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -78,47 +74,83 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		3TxAhGmKLEFL5mLEIq509hDioIU=
+		ZhTV1t39RokByeOHzvYZFaJc6BE=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		MRpslvdglVHOABIrrMfp8kE64Ag=
+		kbzOF6u1o4Fzyr1ahDPv3gM8M2w=
 		</data>
 		<key>System.dll</key>
 		<data>
-		+SArvQgc8LYHcOtXZhMpwhY1FXM=
+		1d9PWi201zLlEOtCWD/fk8m2wTc=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		R0JmKWMgKNgw/XSHmz04lQq/c4I=
+		ONMkNCH0ac+gQntS4Ow4GgcZrSY=
+		</data>
+		<key>button_Photo.png</key>
+		<data>
+		cVZbhy8BOL6c9FmZHg4rkuzrSlQ=
+		</data>
+		<key>button_Photo@2x.png</key>
+		<data>
+		K+0K0YyTH+rt4CwuR30zv/v2zug=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		mGbkeqnEdbqErxKqs3McENbOMpI=
 		</data>
+		<key>icon-100.png</key>
+		<data>
+		Ub+TMkD7z1230xSSS1hCbPNpHe8=
+		</data>
+		<key>icon-114.png</key>
+		<data>
+		6JnxVQpQNXJuEwKByHjernVzg08=
+		</data>
+		<key>icon-144.png</key>
+		<data>
+		+vLMAFQAj5E6rQ3P7acXI5HEcZE=
+		</data>
+		<key>icon-29.png</key>
+		<data>
+		3/1L5tXIq0aQpBDA2U1bW7IwEho=
+		</data>
+		<key>icon-50.png</key>
+		<data>
+		c+EjRzFs0+1tYahuF2SOp9aWzSM=
+		</data>
+		<key>icon-57.png</key>
+		<data>
+		uQDcDfT1W4x6LeOGHOVO5zdWILI=
+		</data>
+		<key>icon-58.png</key>
+		<data>
+		+o9DvJiB9rZKftVC+9C5fHEka+w=
+		</data>
+		<key>icon-72.png</key>
+		<data>
+		cCj5BJoyyFvUuFi4yUyoWu1rAhs=
+		</data>
 		<key>monotouch.dll</key>
 		<data>
-		BSdqFV22nAhtw0356TZ7l9NANic=
+		HNQLerOBTBhuNzonn+D30P9FE/s=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		8IaLPZcB55fXZzQJeWsQ2H5WyPc=
+		G9LXhPGHRDEQYpxvP83oWvqj/bA=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		LYOdbOlJlryF1j3dZIGU53PL3YM=
+		4Wsd+AJb41+rFd14H90IEa6mw6o=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		eD7ok+e4vyIZ8fyW7ozUShJpHE0=
+		XY7eMtGQR1pF5XctFw+skO/9y9A=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		eMZ4uFgk9WdZyp9sv/YLHWUL61I=
-		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		o4O3P+j77hOxzgOWAj2lY7VLLNM=
@@ -141,11 +173,11 @@
 		</data>
 		<key>Default.png</key>
 		<data>
-		dNt8ny0mPGdvvnZMBoNso9lvvUg=
+		nbiIoDdnXNUGoUCzUnathy9viqc=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		0id3K+t1R3EHhSzfPkVILDDnqWs=
+		6kOxvJD8oDeppuPeGXb56NEOwHk=
 		</data>
 		<key>Default@2x~iphone.png</key>
 		<data>
@@ -154,14 +186,6 @@
 		<key>Default~iphone.png</key>
 		<data>
 		dNt8ny0mPGdvvnZMBoNso9lvvUg=
-		</data>
-		<key>MainStoryboard.storyboardc/UIViewController-28.nib</key>
-		<data>
-		dBduCHAt+nzvxvFhcEINLivGfyE=
-		</data>
-		<key>MainStoryboard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<data>
-		73m2IWi1YuLg0BNvRF1+NsiBYN4=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -173,11 +197,19 @@
 		</data>
 		<key>PhotoAlbum.exe</key>
 		<data>
-		L1l5kWJUkz1dOgJ0ux70iiqlNuo=
+		I1urU4w3D77WQdAt1r7BLOATa78=
 		</data>
 		<key>PhotoAlbum.exe.mdb</key>
 		<data>
-		BMvI2OBuEllpHGvtJutBj1usHcg=
+		TPg8ZwdmRQCbb7PXJMoEPJeSrmE=
+		</data>
+		<key>Photos_list_icon.png</key>
+		<data>
+		tEU/zvhD1Dk5sQsAtUpc53US/Tw=
+		</data>
+		<key>Photos_list_icon@2x.png</key>
+		<data>
+		Zcoc+UJhsn5HhwRwAgr1zsvvGos=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -189,39 +221,79 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		3TxAhGmKLEFL5mLEIq509hDioIU=
+		ZhTV1t39RokByeOHzvYZFaJc6BE=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		MRpslvdglVHOABIrrMfp8kE64Ag=
+		kbzOF6u1o4Fzyr1ahDPv3gM8M2w=
 		</data>
 		<key>System.dll</key>
 		<data>
-		+SArvQgc8LYHcOtXZhMpwhY1FXM=
+		1d9PWi201zLlEOtCWD/fk8m2wTc=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		R0JmKWMgKNgw/XSHmz04lQq/c4I=
+		ONMkNCH0ac+gQntS4Ow4GgcZrSY=
+		</data>
+		<key>button_Photo.png</key>
+		<data>
+		cVZbhy8BOL6c9FmZHg4rkuzrSlQ=
+		</data>
+		<key>button_Photo@2x.png</key>
+		<data>
+		K+0K0YyTH+rt4CwuR30zv/v2zug=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		mGbkeqnEdbqErxKqs3McENbOMpI=
 		</data>
+		<key>icon-100.png</key>
+		<data>
+		Ub+TMkD7z1230xSSS1hCbPNpHe8=
+		</data>
+		<key>icon-114.png</key>
+		<data>
+		6JnxVQpQNXJuEwKByHjernVzg08=
+		</data>
+		<key>icon-144.png</key>
+		<data>
+		+vLMAFQAj5E6rQ3P7acXI5HEcZE=
+		</data>
+		<key>icon-29.png</key>
+		<data>
+		3/1L5tXIq0aQpBDA2U1bW7IwEho=
+		</data>
+		<key>icon-50.png</key>
+		<data>
+		c+EjRzFs0+1tYahuF2SOp9aWzSM=
+		</data>
+		<key>icon-57.png</key>
+		<data>
+		uQDcDfT1W4x6LeOGHOVO5zdWILI=
+		</data>
+		<key>icon-58.png</key>
+		<data>
+		+o9DvJiB9rZKftVC+9C5fHEka+w=
+		</data>
+		<key>icon-72.png</key>
+		<data>
+		cCj5BJoyyFvUuFi4yUyoWu1rAhs=
+		</data>
 		<key>monotouch.dll</key>
 		<data>
-		BSdqFV22nAhtw0356TZ7l9NANic=
+		HNQLerOBTBhuNzonn+D30P9FE/s=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		8IaLPZcB55fXZzQJeWsQ2H5WyPc=
+		G9LXhPGHRDEQYpxvP83oWvqj/bA=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		LYOdbOlJlryF1j3dZIGU53PL3YM=
+		4Wsd+AJb41+rFd14H90IEa6mw6o=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		eD7ok+e4vyIZ8fyW7ozUShJpHE0=
+		XY7eMtGQR1pF5XctFw+skO/9y9A=
 		</data>
 	</dict>
 	<key>rules</key>

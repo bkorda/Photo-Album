@@ -14,13 +14,6 @@ namespace PhotoAlbum
 	[Register ("PhotoAlbumViewController")]
 	partial class PhotoAlbumViewController
 	{
-		[Outlet]
-		MonoTouch.UIKit.UICollectionView _collectionViewPhoto { get; set; }
-
-		[Action ("BtnLibrary_Action:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void BtnLibrary_Action (UIButton sender);
-
 		void ReleaseDesignerOutlets ()
 		{
 		}

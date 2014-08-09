@@ -1,0 +1,5 @@
+/Users/gazelle/Projects/PhotoAlbum/PhotoAlbum/obj/iPhone/Release/mtouch-cache/Link/monotouch.dll
+/Users/gazelle/Projects/PhotoAlbum/PhotoAlbum/obj/iPhone/Release/mtouch-cache/Link/System.dll
+/Users/gazelle/Projects/PhotoAlbum/PhotoAlbum/obj/iPhone/Release/mtouch-cache/Link/PhotoAlbum.exe
+/Users/gazelle/Projects/PhotoAlbum/PhotoAlbum/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+/Users/gazelle/Projects/PhotoAlbum/PhotoAlbum/obj/iPhone/Release/mtouch-cache/Link/System.Core.dll

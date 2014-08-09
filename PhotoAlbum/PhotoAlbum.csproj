@@ -96,7 +96,6 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Model\Photo.cs" />
     <Compile Include="Model\Comment.cs" />
-    <Compile Include="Model\AlbumModel.cs" />
     <Compile Include="SQLite.cs" />
     <Compile Include="Controllers\PhotoAlbumViewController.cs" />
     <Compile Include="Controllers\PhotoAlbumViewController.designer.cs">
@@ -107,7 +106,6 @@
       <DependentUpon>PCPhotoCell.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\PhotoPageController.cs" />
-    <Compile Include="Controllers\PhotoPageSource.cs" />
     <Compile Include="Views\Cells\PCCommentCell.cs" />
     <Compile Include="Views\Cells\PCCommentCell.designer.cs">
       <DependentUpon>PCCommentCell.cs</DependentUpon>
@@ -116,19 +114,45 @@
     <Compile Include="Views\Cells\PCInputCell.designer.cs">
       <DependentUpon>PCInputCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\AlbumModelSingleton.cs" />
+    <Compile Include="LocationManager.cs" />
+    <Compile Include="LocationUpdateEventArgs.cs" />
+    <Compile Include="Model\PhotoPageSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Views\MainStoryboard.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="Controllers\" />
     <Folder Include="Views\" />
     <Folder Include="Views\Cells\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Default-Landscape%402x~ipad.png" />
+    <BundleResource Include="Resources\Default-Landscape~ipad.png" />
+    <BundleResource Include="Resources\Default-Portrait%402x~ipad.png" />
+    <BundleResource Include="Resources\Default-Portrait~ipad.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\icon-29.png" />
+    <BundleResource Include="Resources\icon-50.png" />
+    <BundleResource Include="Resources\icon-57.png" />
+    <BundleResource Include="Resources\icon-58.png" />
+    <BundleResource Include="Resources\icon-72.png" />
+    <BundleResource Include="Resources\icon-100.png" />
+    <BundleResource Include="Resources\icon-114.png" />
+    <BundleResource Include="Resources\icon-144.png" />
+    <BundleResource Include="Resources\Photos_list_icon.png" />
+    <BundleResource Include="Resources\Photos_list_icon%402x.png" />
+    <BundleResource Include="Resources\button_Photo.png" />
+    <BundleResource Include="Resources\button_Photo%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="Resources\iTunesArtwork.png" />
+    <ITunesArtwork Include="Resources\iTunesArtwork%402x.png" />
   </ItemGroup>
 </Project>

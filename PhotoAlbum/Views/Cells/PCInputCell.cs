@@ -17,7 +17,7 @@ namespace PhotoAlbum
 			BackgroundView = new UIView{BackgroundColor = UIColor.White};
 			SelectionStyle = UITableViewCellSelectionStyle.None;
 
-			TextField = new UITextField(new Rectangle(15, 0, 320, 44));
+			TextField = new UITextField(new Rectangle(15, 0, (int)ContentView.Bounds.Size.Width - 15, (int)ContentView.Bounds.Size.Height));
 			TextField.Placeholder = "Enter the comment";
 
 			ContentView.AddSubview(TextField);

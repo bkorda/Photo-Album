@@ -14,10 +14,40 @@ namespace PhotoAlbum
 	public partial class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
-		
+		UICollectionViewFlowLayout flowLayout;
+		UIWindow window;
+
 		public override UIWindow Window {
-			get;
-			set;
+			get {
+				return window;
+			}
+			set{ }
+		}
+
+		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
+		{
+			window = new UIWindow (UIScreen.MainScreen.Bounds);
+
+			int cellSize = UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Pad ? 350 : 100;
+
+			flowLayout = new UICollectionViewFlowLayout (){
+				HeaderReferenceSize = new System.Drawing.SizeF (0, 0),
+				SectionInset = new UIEdgeInsets (3,3,3,3),
+				ScrollDirection = UICollectionViewScrollDirection.Vertical,
+				MinimumInteritemSpacing = 5, // minimum spacing between cells
+				MinimumLineSpacing = 5, // minimum spacing between rows if ScrollDirection is Vertical or between columns if Horizontal
+				ItemSize = new System.Drawing.SizeF(cellSize, cellSize),
+			};
+					
+				
+			PhotoAlbumViewController rootController = new PhotoAlbumViewController (flowLayout);
+			UINavigationController navController = new UINavigationController (rootController);
+			navController.NavigationBar.BarStyle = UIBarStyle.Default;
+
+			window.RootViewController = navController;
+			window.MakeKeyAndVisible ();
+
+			return true;
 		}
 		
 		// This method is invoked when the application is about to move from active to inactive state.
