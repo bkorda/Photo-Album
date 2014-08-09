@@ -19,7 +19,6 @@ namespace PhotoAlbum
 
 			int size = UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Pad ? 400 : 255;
 			_imageView = new UIImageView(new Rectangle(0, 0, size, size));
-			_imageView.Center = ContentView.Center;
 			_imageView.ContentMode = UIViewContentMode.ScaleAspectFit;
 
 			ContentView.AddSubview(_imageView);
