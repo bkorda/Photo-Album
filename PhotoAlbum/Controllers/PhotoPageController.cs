@@ -29,8 +29,9 @@ namespace PhotoAlbum
 			base.ViewDidLoad ();
 			
 			// Register the TableView's data source
-			var comments = AlbumModelSingleton.Instance.GetCommentsForPhotoID (ImageID);
-			TableView.Source = new PhotoPageSource (){Image = Image, Comments = comments};
+			var comments = AlbumModelSingleton.Instance.GetComments (ImageID);
+			TableView.Source = new PhotoPageSource (){ Image = Image, Comments = comments, ImageID = ImageID };
+			TableView.ScrollEnabled = true;
 		}
 	}
 }

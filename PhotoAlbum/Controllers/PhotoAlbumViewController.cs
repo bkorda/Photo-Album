@@ -12,7 +12,6 @@ namespace PhotoAlbum
 	public partial class PhotoAlbumViewController : UIViewController
 	{
 		UIImagePickerController _imagePickerController;
-		PhotoSource _source;
 		static NSString photoCellId = new NSString ("PhotoCell");
 
 		public PhotoAlbumViewController (IntPtr handle) : base (handle)
@@ -34,11 +33,9 @@ namespace PhotoAlbum
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
 			_collectionViewPhoto.RegisterClassForCell (typeof(PhotoCell), photoCellId);
-			_source = new PhotoSource ();
-			_source.mNavigationController = NavigationController;
-			_collectionViewPhoto.Source = _source;
+			_collectionViewPhoto.Source = new PhotoSource (){ mNavigationController = NavigationController };
 			var longPressRecognizer = new UILongPressGestureRecognizer(longPressImage);
-			longPressRecognizer.MinimumPressDuration = .5; //seconds
+			longPressRecognizer.MinimumPressDuration = 1; //seconds
 			longPressRecognizer.DelaysTouchesBegan = true;
 			_collectionViewPhoto.AddGestureRecognizer (longPressRecognizer);
 		}
@@ -146,7 +143,7 @@ namespace PhotoAlbum
 		{
 			//уверен это гомнокод, но не придумал как иначе достучаться до контроллера
 			public UINavigationController mNavigationController;
-			//конец гомнокода
+
 			public PhotoSource ()
 			{
 
@@ -155,8 +152,6 @@ namespace PhotoAlbum
 			#region implemented abstract members of UICollectionViewDataSource
 			public override UICollectionViewCell GetCell (UICollectionView collectionView, NSIndexPath indexPath)
 			{
-				// NOTE: Don't call the base implementation on a Model class
-				// see http://docs.xamarin.com/guides/ios/application_fundamentals/delegates,_protocols,_and_events
 				var cell = (PhotoCell)collectionView.DequeueReusableCell (photoCellId, indexPath);
 				cell.BackgroundColor = UIColor.White;
 				cell.Image = AlbumModelSingleton.Instance.Photos [indexPath.Row];
@@ -165,8 +160,6 @@ namespace PhotoAlbum
 
 			public override int GetItemsCount (UICollectionView collectionView, int section)
 			{
-				// see http://docs.xamarin.com/guides/ios/application_fundamentals/delegates,_protocols,_and_events
-				// NOTE: Don't call the base implementation on a Model class
 				return AlbumModelSingleton.Instance.Photos.Count;
 			}
 			#endregion

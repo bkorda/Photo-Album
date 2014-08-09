@@ -39,7 +39,7 @@ namespace PhotoAlbum
 			}
 		}
 
-		public List<string> GetCommentsForPhotoID(int photoID)
+		public List<string> GetComments(int photoID)
 		{ 
 			List<string> comments = new List<string>(); 
 			using (var db = new SQLite.SQLiteConnection (_pathToDatabase)) {
@@ -99,7 +99,8 @@ namespace PhotoAlbum
 				int id;
 				using (var db = new SQLite.SQLiteConnection(_pathToDatabase ))
 				{
-					id = db.Insert(photo);
+					db.Insert(photo);
+					id = db.Table<Photo>().Last().ID;
 				}
 
 				IDs.Add(id);
@@ -111,10 +112,20 @@ namespace PhotoAlbum
 			using (var db= new SQLite.SQLiteConnection(_pathToDatabase))
 			{
 				var allPhotos = db.Table<Photo>().ToList();
+				db.Query<Comments> ("delete from Comments where photoID = ?", allPhotos[index].ID);
 				db.Delete (allPhotos [index]);
 			}
 			_photos.RemoveAt (index);
 			IDs.RemoveAt (index);
+		}
+
+		public void AddComment(string text, int photoID)
+		{
+			var comment = new Comments {Text = text, PhotoID = photoID};
+			using (var db = new SQLite.SQLiteConnection(_pathToDatabase ))
+			{
+				db.Insert(comment);
+			}
 		}
 	}
 }

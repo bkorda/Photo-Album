@@ -17,7 +17,7 @@ namespace PhotoAlbum
 			BackgroundView = new UIView{BackgroundColor = UIColor.White};
 			SelectionStyle = UITableViewCellSelectionStyle.None;
 
-			_textView = new UITextView(new Rectangle(0, 0, 320, 44));
+			_textView = new UITextView(new Rectangle(15, 0, 320, 44));
 
 			ContentView.AddSubview(_textView);
 		}
@@ -29,15 +29,8 @@ namespace PhotoAlbum
 					_textView.Text = value;
 					SizeF size = _textView.SizeThatFits(new SizeF(320, float.MaxValue));
 
-					_textView.Frame = new RectangleF(new PointF(0, 0), size);	
+					_textView.Frame = new RectangleF(new PointF(15, 0), size);	
 				}
-			}
-		}
-
-		public float Height 
-		{
-			get {
-				return _textView.Frame.Height;
 			}
 		}
 	}

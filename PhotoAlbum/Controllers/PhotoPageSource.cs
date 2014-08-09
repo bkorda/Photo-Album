@@ -12,6 +12,7 @@ namespace PhotoAlbum
 	{
 		public UIImage Image { set; get;}
 		public List<string> Comments { set; get; }
+		public int ImageID { set; get; }
 
 		public PhotoPageSource ()
 		{
@@ -19,13 +20,11 @@ namespace PhotoAlbum
 
 		public override int NumberOfSections (UITableView tableView)
 		{
-			// TODO: return the actual number of sections
 			return 1;
 		}
 
 		public override int RowsInSection (UITableView tableview, int section)
 		{
-			// TODO: return the actual number of items in the section
 			return Comments.Count + 2;
 		}
 
@@ -44,13 +43,32 @@ namespace PhotoAlbum
 				if (cell == null)
 					cell = new PCInputCell ();
 
+				cell.TextField.ShouldReturn = (sender) =>
+				{
+					sender.ResignFirstResponder();
+					Console.WriteLine(sender.Text);
+					AlbumModelSingleton.Instance.AddComment(sender.Text, ImageID);
+
+					tableView.BeginUpdates();
+					Comments.Insert(0, sender.Text);
+
+					tableView.InsertRows (new NSIndexPath[] { 
+						NSIndexPath.FromRowSection (1, 0) 
+					}, UITableViewRowAnimation.Right);
+					tableView.EndUpdates();
+
+					sender.Text = "";
+
+					return false;
+				};
+
 				return cell;
 			} else {
 				var cell = tableView.DequeueReusableCell (PCCommentCell.Key) as PCCommentCell;
 				if (cell == null)
 					cell = new PCCommentCell ();
 
-				cell.Text = Comments [indexPath.Row];
+				cell.Text = Comments [indexPath.Row - 1];
 
 				return cell;
 			}
@@ -60,11 +78,8 @@ namespace PhotoAlbum
 		{
 			if (indexPath.Row == 0) {
 				return 255f;
-			} else if (indexPath.Row == Comments.Count + 1) {
-				return 44f;
 			} else {
-				PCCommentCell cell = tableView.CellAt (indexPath) as PCCommentCell;
-				return cell.Height;
+				return 44f;
 			}
 		}
 
